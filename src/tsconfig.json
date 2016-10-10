@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "../lib",
+        "strictNullChecks": true,
+        "noImplicitAny": true
+    },
+    "include": [
+        "../typings/globals/node/**/*",
+        "../typings/globals/ws/**/*",
+        "../typings/globals/request-promise/**/*",
+        "../typings/modules/**/*",
+        "./**/*"
+    ]
+}

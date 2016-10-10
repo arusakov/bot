@@ -1,0 +1,30 @@
+{
+  "name": "hermes-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/hermes-bot.js",
+  "scripts": {
+    "compile": "tsc --noEmit -p ./src",
+    "build": "tsc -d -p ./src",
+    "dev": "tsc -d -w -p ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hermes",
+    "Bot",
+    "WebSocket"
+  ],
+  "author": "Alexander Rusakov <a_s_rusakov@mail.ru> (https://github.com/arusakov)",
+  "license": "MIT",
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "co": "^4.6.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3",
+    "typing": "^0.1.9",
+    "typings": "^1.4.0",
+    "ws": "^1.1.1"
+  }
+}
